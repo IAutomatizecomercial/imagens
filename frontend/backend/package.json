@@ -1,0 +1,12 @@
+{
+  "name": "flow-crm",
+  "version": "1.0.0",
+  "description": "Sistema CRM completo com integrações para redes sociais e IA",
+  "scripts": {
+    "start": "node server.js",
+    "build": "cd frontend && npm install && npm run build && cd ../backend && npm install",
+    "dev": "concurrently \"cd backend && npm run dev\" \"cd frontend && npm start\""
+  },
+  "author": "",
+  "license": "MIT"
+}
